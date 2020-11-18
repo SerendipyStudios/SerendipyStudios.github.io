@@ -2827,25 +2827,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #725aff;
-  border-color: #725aff;
+  color: #f8fafa;
+  border-color: #f8fafa;
 }
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #4424ff;
-  border-color: #4424ff;
+  background-color: #f8fafa;
+  border-color: #f8fafa;
 }
 .btn-outline-light:focus, .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #725aff;
+  color: #f8fafa;
   background-color: transparent;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle {
   color: #212529;
-  background-color: #725aff;
-  border-color: #725aff;
+  background-color: #f8fafa;
+  border-color: #f8fafa;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
