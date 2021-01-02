@@ -16,6 +16,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -27,13 +28,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#flyguins">Flyguins</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#confitados">Confitados</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Conócenos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
@@ -51,18 +54,19 @@
                 <p class="masthead-subheading font-weight-light mb-0">Desarrolladores de Videojuegos - Estudio Indie</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        
+        <!-- Flyguins Section-->
+        <section class="page-section flyguins" id="flyguins">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Flyguins</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+                <!-- Flyguins Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -91,6 +95,23 @@
                             <img class="img-fluid" src="assets/img/portfolio/escudoypinchos.png" alt="" />
                         </div>
                     </div>
+                 </div>
+            </div>
+        </section>
+        
+        <!-- Confitados Section-->
+        <section class="page-section confitados" id="confitados">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Confitados</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
                     <!-- Portfolio Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
@@ -121,6 +142,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -146,6 +168,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- Contact Section-->
         <section class="page-section text-center" id="contact">
             <div class="container">
@@ -157,47 +180,7 @@
                     <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!--
-                <!-- Contact Section Form--
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.--
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Nombre</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor introduzca su nombre." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Dirección de correo electrónico</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Dirección de correo electrónico" required="required" data-validation-required-message="Por favor introduzca su dirección de correo electrónico." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Número de teléfono</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Número de teléfono" required="required" data-validation-required-message="Por favor introduzca su número de teléfono." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Mensaje</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Por favor introduzca un mensaje."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <br />
-                            <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
-                        </form>
-                    </div>
-                </div>
-                -->
+                
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -217,30 +200,6 @@
             </div>
         </section>
         
-        <!--
-        <!-- Footer--
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location--
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <img class="img-fluid" src="assets/img/portfolio/animacionpingu.gif" alt="" />
-                    </div>
-                    <!-- Footer Social Icons--
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Nuestras Redes</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/SerendipyStudio"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://serendipystudios.itch.io"><i class="fab fa-fw fa-itch-io"></i></a>
-                    </div>
-                    <!-- Footer About Text--
-                    <div class="col-lg-4">
-                        <img class="img-fluid" src="assets/img/portfolio/animacionpingu.gif" alt="" />
-                    </div>
-                </div>
-            </div>
-        </footer>
-        -->
-
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright © Serendipy Studios 2020</small></div>
@@ -290,6 +249,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -328,6 +288,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -366,6 +327,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Portfolio Modal 4-->
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -400,6 +362,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Portfolio Modal 5-->
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -434,6 +397,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Portfolio Modal 6-->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -468,6 +432,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
