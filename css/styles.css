@@ -172,11 +172,11 @@ a:hover {
 }
 
 a:not([href]):not([class]) {
-  color: inherit;
+  color: #2C86A4;
   text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  color: inherit;
+  color: #2F7178;
   text-decoration: none;
 }
 
